@@ -1,0 +1,4 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+* * * * * root cd /app && python3 /app/scripts/log_2fa_cron.py >> /cron/last_code.txt 2>&1
